@@ -9,7 +9,7 @@ Zaitun is a modern, memory-safe programming language designed with strong typing
 - Batteries Included: Comprehensive standard library
 
 ## Project Structure
-```plaintext
+```
 zaitun/
 ├── compiler/
 │   └── bootstrap/       # Initial compiler implementation
@@ -21,26 +21,26 @@ zaitun/
 │   └── docs/            # Documentation generator
 └── docs/                # Language documentation
  ```
-```
+
 ## Getting Started
 ### Prerequisites
 - Rust 1.50 or later
 - CMake 3.10 or later
 - LLVM 12 or later (for native code generation)
 ### Building from Source
-```bash
+```
 git clone https://github.com/Nouridin/zaitun.git
 cd zaitun
 cargo build --release
  ```
-```
+
 ### Running a Zaitun Program
-```bash
+```
 zaitun run path/to/program.ztn
  ```
 
 ### Creating a New Project
-```bash
+```
 zaitun init my_project
 cd my_project
 zaitun build
@@ -49,28 +49,28 @@ zaitun run
 
 ## Language Overview
 ### Hello World
-```plaintext
+```
 fn main() {
     println("Hello, World!");
 }
  ```
 
 ### Variables and Types
-```plaintext
+```
 let name: String = "Zaitun";
 let version: f64 = 0.1;
 let is_awesome: bool = true;
  ```
 
 ### Functions
-```plaintext
+```
 fn add(a: i32, b: i32) -> i32 {
     return a + b;
 }
  ```
 
 ### Classes and Objects
-```plaintext
+```
 class Person {
     name: String;
     age: i32;
