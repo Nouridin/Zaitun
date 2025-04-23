@@ -2,11 +2,12 @@
 Zaitun is a modern, memory-safe programming language designed with strong typing, static analysis, and object-oriented principles. This repository contains the implementation of the Zaitun language, including the compiler, standard library, and developer tools.
 
 ## Features
-- Memory Safety : Built-in ownership model prevents memory-related bugs
-- Strong Type System : Robust static typing with user-defined types
-- Object-Oriented : Support for classes, interfaces, and inheritance
-- Progressive Disclosure : Simple operations are straightforward, advanced features available when needed
-- Batteries Included : Comprehensive standard library
+- Memory Safety: Built-in ownership model prevents memory-related bugs
+- Strong Type System: Robust static typing with user-defined types
+- Object-Oriented: Support for classes, interfaces, and inheritance
+- Progressive Disclosure: Simple operations are straightforward, advanced features available when needed
+- Batteries Included: Comprehensive standard library
+
 ## Project Structure
 ```plaintext
 zaitun/
@@ -21,7 +22,6 @@ zaitun/
 └── docs/                # Language documentation
  ```
 ```
-
 ## Getting Started
 ### Prerequisites
 - Rust 1.50 or later
@@ -34,7 +34,6 @@ cd zaitun
 cargo build --release
  ```
 ```
-
 ### Running a Zaitun Program
 ```bash
 zaitun run path/to/program.ztn
@@ -85,7 +84,6 @@ class Person {
     }
 }
  ```
-```
 
 ## Development Roadmap
 1. Phase 1 : Bootstrap Compiler
