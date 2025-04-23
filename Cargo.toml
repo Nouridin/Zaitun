@@ -1,0 +1,18 @@
+[package]
+name = "zaitun"
+version = "0.1.0"
+authors = ["Nouridin Elhofy"]
+description = "The Zaitun programming language"
+edition = "2021"
+
+[workspace]
+members = [
+    "compiler/bootstrap",
+]
+
+# This is a workspace root package, so we don't need dependencies here
+# Dependencies are specified in the member crates
+
+[profile.release]
+opt-level = 3
+lto = true

@@ -1,0 +1,17 @@
+[package]
+name = "zaitun-lang"
+version = "0.1.0"
+authors = ["Nouridin Elhofy"]
+description = "The Zaitun programming language compiler"
+
+[build]
+optimize = false
+target = "x86_64-pc-windows-msvc"
+lto = false
+
+[dependencies]
+llvm-sys = "16.0"
+nom = "7.1"
+thiserror = "1.0"
+# Initial bootstrap dependencies
+llvm = "16"
